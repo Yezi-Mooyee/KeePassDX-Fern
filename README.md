@@ -1,5 +1,7 @@
 # Android KeePassDX Fern
 
+English | [简体中文](README.zh-CN.md)
+
 <img alt="KeePassDX Icon" src="https://cdn.jsdelivr.net/gh/Yezi-Mooyee/KeePassDX-Fern@master/art/icon.png"> **Lightweight password safe and manager for Android**, KeePassDX Fern allows editing encrypted data in a single file in KeePass format and fill in the forms in a secure way.
 
 <img alt="KeePassDX Screenshot" src="https://cdn.jsdelivr.net/gh/Yezi-Mooyee/KeePassDX-Fern@master/art/screen.jpg" width="220">

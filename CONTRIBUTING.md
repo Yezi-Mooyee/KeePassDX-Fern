@@ -1,6 +1,20 @@
 # Code Contributing
 
-**Thank you for your interest in contributing code to KeePassDX!** As a security-centric application under the GNU GPLv3, our priorities are code integrity, transparency, and human accountability.
+<!-- Fork notice: this file is based on the upstream CONTRIBUTING.md of KeePassDX and has been
+     modified for KeePassDX Fern. Modifications copyright © 2026 Yezi Mooyee, GPLv3. -->
+
+> **This is the contributing guide of KeePassDX Fern**, an unofficial fork of
+> [Kunzisoft/KeePassDX](https://github.com/Kunzisoft/KeePassDX).
+> Please submit your changes to [this repository](https://github.com/Yezi-Mooyee/KeePassDX-Fern)
+> as pull requests against the `develop` branch.
+> This fork only accepts changes to the outer layers (interface, input method, preferences);
+> changes to the encryption implementation or to the KDBX parsing should be proposed upstream.
+> **If you are not sure whether your contribution belongs here or upstream, open an issue on
+> [this repository](https://github.com/Yezi-Mooyee/KeePassDX-Fern/issues) first** — I would rather
+> receive a contribution that belongs upstream than send a fork-specific one upstream.
+> Everything below is the upstream guide, and still applies here.
+
+**Thank you for your interest in contributing code to KeePassDX Fern!** As a security-centric application under the GNU GPLv3, the priorities of this project are code integrity, transparency, and human accountability.
 
 *Pull requests (PRs) are highly encouraged, provided they adhere to the security and architectural standards outlined below.*
 
@@ -12,7 +26,7 @@ Make sure to follow the guidelines outlined in this document before submitting y
 
 ## General Guidelines
 
-KeePassDX was designed to be a purely local application with **no unnecessary permissions** and **no internet connection**. Please avoid adding features that would require an external network connection.
+KeePassDX Fern was designed to be a purely local application with **no unnecessary permissions** and **no internet connection**. Please avoid adding features that would require an external network connection.
 
 It should remain a **file-editing application** that uses the Storage Access Framework and does not directly manipulate database files.
 
@@ -28,7 +42,7 @@ Ensure your code follows the **existing architectural patterns** and Android bes
 
 **Never duplicate** a concept, a function, or a piece of code, and ensure that a feature is consistent with the application’s guidelines. Keep your code consistent with the style, formatting, and conventions in the rest of the code base.
 
-KeePassDX is open to a paradigm shift or architectural change if the benefits outweigh the drawbacks, but this requires thorough analysis and discussion.
+KeePassDX Fern is open to a paradigm shift or architectural change if the benefits outweigh the drawbacks, but this requires thorough analysis and discussion.
 
 ## Security
 
@@ -73,12 +87,12 @@ Document your changes with code comments or by updating existing documentation t
 
 ## Commits
 
-Keep your commits clean and avoid "monolithic" changes. Break down changes into logical steps and use descriptive commit messages. Make sure to keep your pull request up to date with the develop branch for smoother merging. Avoid including unrelated changes in your PR, such as modifications to CI/CD files.
+Keep your commits clean and avoid "monolithic" changes. Break down changes into logical steps and use descriptive commit messages. Make sure to keep your pull request up to date with the `develop` branch for smoother merging. Avoid including unrelated changes in your PR, such as modifications to CI/CD files.
 
 ## Dependencies
 
-Avoid unnecessary dependencies: KeePassDX aims to be lightweight. Adding new libraries requires strong justification and approval from the maintainers. If you've incremented the version numbers of existing libraries, make sure to include them in a separate commit.
+Avoid unnecessary dependencies: KeePassDX Fern aims to be lightweight. Adding new libraries requires strong justification and approval from the maintainers. If you've incremented the version numbers of existing libraries, make sure to include them in a separate commit.
 
 # Licensing
 
-By contributing to KeePassDX, you confirm that you are the original author of the code or have the right to submit it. You agree to license your contribution under the GPL-3.0 license. As this is a maintainer-led project, your pull request may be modified or rejected to ensure that the app maintains its standards.
+By contributing to KeePassDX Fern, you confirm that you are the original author of the code or have the right to submit it. You agree to license your contribution under the GPL-3.0 license. As this is a maintainer-led project, your pull request may be modified or rejected to ensure that the app maintains its standards.

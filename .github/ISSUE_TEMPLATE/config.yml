@@ -1,1 +1,7 @@
+# Fork notice: this file is based on the upstream issue configuration of KeePassDX and has been
+# modified for KeePassDX Fern. Modifications copyright © 2026 Yezi Mooyee, GPLv3.
 blank_issues_enabled: false
+contact_links:
+  - name: Upstream KeePassDX — bug reports and feature requests
+    url: https://github.com/Kunzisoft/KeePassDX/issues
+    about: Use this only if you have confirmed that the problem also happens with the upstream KeePassDX build. If you are not sure which project the problem belongs to, open an issue here first.

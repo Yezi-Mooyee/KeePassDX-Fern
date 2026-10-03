@@ -1,3 +1,5 @@
+# Fork notice: this file is based on the upstream issue template of KeePassDX and has been
+# modified for KeePassDX Fern. Modifications copyright © 2026 Yezi Mooyee, GPLv3.
 name: Feature request
 description: Suggest an idea.
 labels: ["feature"]
@@ -5,7 +7,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please check out the [Wiki](https://github.com/Kunzisoft/KeePassDX/wiki) and [existing issues](https://github.com/Kunzisoft/KeePassDX/issues?q=is%3Aissue%20state%3Aopen%20label%3Afeature) to see if your feature has already been reported.
+        This is the feature tracker of **KeePassDX Fern**, an unofficial fork. This fork only accepts changes to the outer layers (interface, input method, preferences).
+
+        Before opening an issue, please:
+        1. search [the issues of this fork](https://github.com/Yezi-Mooyee/KeePassDX-Fern/issues?q=is%3Aissue%20state%3Aopen%20label%3Afeature), the [upstream issues](https://github.com/Kunzisoft/KeePassDX/issues) and the [upstream Wiki](https://github.com/Kunzisoft/KeePassDX/wiki) to see whether your feature has already been requested;
+        2. decide whether it is a feature of this fork or of upstream.
+
+        If you are not sure which project it belongs to, **open it here first**. I would rather receive a request that turns out to belong upstream than send a fork-specific request upstream.
   - type: checkboxes
     id: checks
     attributes:

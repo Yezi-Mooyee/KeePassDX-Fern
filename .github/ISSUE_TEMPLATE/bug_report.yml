@@ -1,3 +1,5 @@
+# Fork notice: this file is based on the upstream issue template of KeePassDX and has been
+# modified for KeePassDX Fern. Modifications copyright © 2026 Yezi Mooyee, GPLv3.
 name: Bug report
 description: Report a bug.
 labels: ["bug"]
@@ -5,7 +7,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please check out the [Wiki](https://github.com/Kunzisoft/KeePassDX/wiki) and [existing issues](https://github.com/Kunzisoft/KeePassDX/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug) to see if your problem has already been reported.
+        This is the bug tracker of **KeePassDX Fern**, an unofficial fork which currently only ships the **libre** build.
+
+        Before opening an issue, please:
+        1. search [the issues of this fork](https://github.com/Yezi-Mooyee/KeePassDX-Fern/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug), the [upstream issues](https://github.com/Kunzisoft/KeePassDX/issues) and the [upstream Wiki](https://github.com/Kunzisoft/KeePassDX/wiki) to see whether the problem has already been reported;
+        2. check whether the problem also happens with the upstream KeePassDX build. A problem that only appears here comes from this fork; a problem that also appears upstream probably comes from upstream.
+
+        If you are not sure which project the problem belongs to, **report it here first**. I would rather receive an issue that turns out to belong upstream than send a fork-specific issue upstream.
   - type: checkboxes
     id: checks
     attributes:
@@ -26,7 +34,7 @@ body:
   - type: input
     id: app-version
     attributes:
-      label: "KeePassDX version:"
+      label: "KeePassDX Fern version:"
     validations:
       required: true
   - type: dropdown
@@ -35,7 +43,6 @@ body:
       label: "Build:"
       multiple: true
       options:
-        - Free
         - Libre
     validations:
       required: true
@@ -59,4 +66,3 @@ body:
     id: additional-context
     attributes:
       label: "Additional context:"
-
